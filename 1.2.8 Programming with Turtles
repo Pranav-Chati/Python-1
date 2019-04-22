@@ -1,0 +1,10 @@
+#the turtle is significant to python because it allows the user to create simple or even complex shapes with the use of simple lines
+import turtle
+myTurtle = turtle.Turtle()
+myTurtle.forward(100)
+myTurtle.right(90)
+myTurtle.forward(100)
+myTurtle.right(90)
+myTurtle.forward(100)
+myTurtle.right(90 )
+myTurtle.forward(100)
