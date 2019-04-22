@@ -1,0 +1,12 @@
+#in this segement, I am suppose to output numbers 1 - 9
+#Fix the problem
+#for i within range(1,9):
+  #print(i)
+ 
+#The problem with this code was that a)the comment wants us to output the numbers 1 - 9 but the above code will only output 1 - 8 because the the second digit needs to be +1 of what you want the number to be 
+# so if you want an output of 1 - 11, then the range would include (1,12)
+#in python, for loops correspond with the statement "in"
+
+#with that, the solution for outputing the numbers 1 - 9 is below
+for i in range(1, 10):
+    print(i)
